@@ -1,7 +1,5 @@
 const winston = require("winston");
-const dotenv = require("dotenv");
-const { transports, info } = require("winston");
-dotenv.config();
+const config = require("../config");
 
 // date + logger level + message
 
@@ -25,9 +23,11 @@ class loggerService {
         return message;
       }),
       transports: [
-        new winston.transports.Console(),
+        //write where i choose to write twice,
+        new winston.transports.Console(), // one in console
         new winston.transports.File({
-          filename: `${process.env.LOG_FILE_PATH}/${route}.log`,
+          // and one in log/shortUrlController.log
+          filename: `${config.LOG_FILE_PATH}/${route}.log`,
         }),
       ],
     });
