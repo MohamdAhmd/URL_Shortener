@@ -18,3 +18,4 @@
 12/31/2022, 6:04:05 PM | INFO | Get | Redirect to ShortUrldata{"otherDetails":{"full":"https://codeforces.com","clicks":5,"short":"TynYQzSt8","__v":0}}
 12/31/2022, 6:04:50 PM | INFO | Get | Redirect to ShortUrldata{"otherDetails":{"full":"https://www.mongodb.com","clicks":1,"short":"hzQJvfRSW"}}
 12/31/2022, 6:05:12 PM | INFO | Get or Redirect to ShortUrldata{"otherDetails":{"full":"https://www.mongodb.com","clicks":2,"short":"hzQJvfRSW"}}
+2/28/2023, 2:41:00 PM | INFO | post ShortUrldata{"full":"https://www.mongodb.com"}
